@@ -2,7 +2,7 @@
 
 
 def even_sum(lst):
-    # Здесь пишем код
+    sum_list = sum(lst[i] for i in range(0, len(lst), 2))  # Суммируем элементы с чётными индексами
     return sum_list
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
